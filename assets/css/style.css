@@ -22,8 +22,10 @@ body {
 /* Navbar */
 
 header {
-    background: url('../images/header/the-crew-2-918-spyder.png');
+    background-image: url('../images/header/the-crew-2-918-spyder.png');
+    background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
     height: 50vh;
 }
 
@@ -47,3 +49,17 @@ header {
 }
 
 /* Section 1 */
+
+/* @media */
+
+@media (max-width: 768px) {
+    header {
+        background-image: url('../images/header/the-crew-2-918-spyder.png');
+        background-position: 70%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 40vh;
+    }
+  }
+
+/* @media */
