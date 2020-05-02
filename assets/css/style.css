@@ -1,0 +1,49 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Header */
+
+/* Navbar */
+
+.navbar-collapse {
+    transition: all .5s;
+}
+
+.bg-navbar {
+    background-color: rgba(192, 27, 5, 0.9);
+}
+
+/* Navbar */
+
+header {
+    background: url('../images/header/the-crew-2-918-spyder.png');
+    background-size: cover;
+    height: 50vh;
+}
+
+/* Header */
+
+/* Section 1 */
+
+.btn-allgames {
+    background-color: #A72E2E;
+    border-radius: 1px;
+    color: white;
+    padding-left: 1.5rem !important;
+    padding-right: 1.5rem !important;
+    transition: all .5s;
+}
+
+.btn-allgames:hover {
+    border-radius: 1rem;
+    background-color: rgb(202, 34, 34);
+    color: white;
+}
+
+/* Section 1 */
